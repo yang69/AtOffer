@@ -5,6 +5,17 @@
  * 为We%20Are%20Happy。
  */
 public class ReplaceSpace {
+    /**
+     * 数组长度会增加，C语言需要考虑原数组能否容纳。
+     * Step 1. 扫描数组中的空格数量
+     * Step 2. 从后向前将每个字符复制到正确位置（替换空格）
+     */
+
+    /**
+     * Java只需要只用StringBuilder，依次向其中添加修改后的内容即可
+     * @param str，待修改的字符串
+     * @return
+     */
     public String replaceSpace(StringBuffer str) {
         if(str == null) {
             return null;
@@ -20,6 +31,13 @@ public class ReplaceSpace {
         return sb.toString();
     }
 
+    /**
+     * 单元测试
+     * 1. 包含空格的字符串（开头、结尾、中间；单个、连续多个）
+     * 2. 没有空格的字符串
+     * 3. 特殊输入（null、空字符串、只包含空格的字符串）
+     * @param args
+     */
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer("t r s");
         System.out.println(new ReplaceSpace().replaceSpace(sb));
