@@ -12,3 +12,5 @@
 |栈和队列 |用两个栈实现队列 | [Java](./src/QueueWithTwoStacks.java)|
 |查找和排序 |旋转数组的最小数字 | [Java](./src/MinNumberInRotateArray.java)|
 |递归和循环 |斐波那契数列 | [Java](./src/Fibonacci.java)|
+|递归和循环 |跳台阶 | [Java](./src/JumpFloor.java)|
+|递归和循环 |变态跳台阶 | [Java](./src/JumpFloorII.java)|
