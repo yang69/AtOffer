@@ -10,24 +10,41 @@ public class MinNumberInRotateArray {
         if(array == null || array.length == 0) {
             return 0;
         }
-        return minNumberInRotateArray(array, 0, array.length-1);
+        if(array[0] < array[array.length-1]) {//此时数组没有旋转，整体有序，最左侧的数字最小
+            return array[0];
+        }
+        int lo = 0;
+        int hi = array.length - 1;
+        while(hi - lo > 1) {
+            int mid = lo + (hi-lo)/2;
+            if(array[lo] == array[mid] && array[mid] == array[hi]) {
+                //左右两端和中间的数字相等时，无法判断最小数字在左边还是后边，此时只能顺序查找
+                return findMinInOrder(array, lo, hi);
+            }
+            if(array[mid] >= array[lo]) {
+                lo = mid;
+            } else if(array[mid] <= array[hi]) {
+                hi = mid;
+            }
+        }
+        return array[hi];
     }
 
-    private int minNumberInRotateArray(int[] array, int from, int to) {
-        if(from >= to) {
-            return array[to];
+    private int findMinInOrder(int[] array, int from, int to) {
+        int min = array[from];
+        for(int i = from+1; i <= to; i++) {
+            if(array[i] < min) {
+                min = array[i];
+            }
         }
-        int mid = from + (to-from)/2;
-        if(array[mid] > array[to]) {
-            return minNumberInRotateArray(array, mid+1, to);
-        } else if(array[from] < array[mid]){
-            return array[from];
-        } else {
-            return minNumberInRotateArray(array, from+1, mid);
-        }
+        return min;
     }
 
     public static void main(String[] args) {
+        //输出应为0
+        System.out.println(new MinNumberInRotateArray().minNumberInRotateArray(new int[]{1,0,1,1,1}));
+        //输出应为0
+        System.out.println(new MinNumberInRotateArray().minNumberInRotateArray(new int[]{1,1,1,0,1}));
         //输出应为1
         System.out.println(new MinNumberInRotateArray().minNumberInRotateArray(new int[]{3,4,5,1,2}));
         //输出应为154
