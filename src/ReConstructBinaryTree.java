@@ -8,6 +8,24 @@ import java.util.HashMap;
  * 3,8,6}，则重建二叉树并返回。
  */
 public class ReConstructBinaryTree {
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+        public String toString() {
+            if(left != null && right != null) {
+                return "[" + left + "," + val + "," + right + "]";
+            } else if(left != null) {
+                return "[" + left + "," + val + ",#,]";
+            } else if(right != null) {
+                return "[#," + val + "," + right + "]";
+            } else {
+                return "" + val;
+            }
+        }
+    }
+
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         if(pre == null || pre.length == 0 || in == null || in.length == 0) {
             return null;
@@ -33,15 +51,5 @@ public class ReConstructBinaryTree {
     public static void main(String[] args) {
         System.out.println(new ReConstructBinaryTree().reConstructBinaryTree(
                 new int[]{1,2,4,7,3,5,6,8}, new int[]{4,7,2,1,5,3,8,6}));
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-    public String toString() {
-        return "[" + left + "," + val + "," + right + "]";
     }
 }
