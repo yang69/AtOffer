@@ -9,7 +9,7 @@
  *   6   10         10   6
  *  / \  / \        / \ / \
  * 5  7 9  11      11 9 7  5
- * 
+ *
  */
 public class MirrorOfBinaryTree {
     private static class TreeNode {
@@ -21,9 +21,9 @@ public class MirrorOfBinaryTree {
             if(left != null && right != null) {
                 return "[" + left + "," + val + "," + right + "]";
             } else if(left != null) {
-                return "[" + left + "," + val + "]";
+                return "[" + left + "," + val + ",#,]";
             } else if(right != null) {
-                return "[" + val + "," + right + "]";
+                return "[#," + val + "," + right + "]";
             } else {
                 return "" + val;
             }
