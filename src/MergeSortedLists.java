@@ -12,7 +12,10 @@ public class MergeSortedLists {
             this.val = val;
         }
         public String toString() {
-            return val + " " + this.next;
+            if(next == null) {
+                return val + "";
+            }
+            return val + ", " + this.next;
         }
     }
 
