@@ -29,3 +29,4 @@
 |举例让抽象具体化 |从上往下打印二叉树 | [Java](./src/PrintFromTopToBottom.java)|
 |举例让抽象具体化 |二叉搜索树的后序遍历序列 | [Java](./src/SquenceOfBST.java)|
 |举例让抽象具体化 |二叉树中和为某一值的路径 | [Java](./src/PathInTree.java)|
+|分解让复杂问题简单化 |复杂链表的复制 | [Java](./src/CopyComplexList.java)|
