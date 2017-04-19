@@ -31,3 +31,4 @@
 |举例让抽象具体化 |二叉树中和为某一值的路径 | [Java](./src/PathInTree.java)|
 |分解让复杂问题简单化 |复杂链表的复制 | [Java](./src/CopyComplexList.java)|
 |分解让复杂问题简单化 |二叉搜索树与双向链表 | [Java](./src/ConvertBinarySearchTree.java)|
+|分解让复杂问题简单化 |字符串的排列 | [Java](./src/StringPermutation.java)|
