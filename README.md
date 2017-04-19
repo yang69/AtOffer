@@ -32,3 +32,4 @@
 |分解让复杂问题简单化 |复杂链表的复制 | [Java](./src/CopyComplexList.java)|
 |分解让复杂问题简单化 |二叉搜索树与双向链表 | [Java](./src/ConvertBinarySearchTree.java)|
 |分解让复杂问题简单化 |字符串的排列 | [Java](./src/StringPermutation.java)|
+|时间效率 |数组中出现次数超过一半的数字 | [Java](./src/MoreThanHalfNumber.java)|
