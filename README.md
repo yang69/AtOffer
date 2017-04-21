@@ -39,3 +39,4 @@
 |时间效率 |把数组排成最小的数 | [Java](./src/SortArrayForMinNumber.java)|
 |时间空间效率的平衡 |丑数 | [Java](./src/UglyNumber.java)|
 |时间空间效率的平衡 |第一个只出现一次的字符位置 | [Java](./src/FirstNotRepeatingChar.java)|
+|时间空间效率的平衡 |数组中的逆序对 | [Java](./src/InversePairs.java)|
