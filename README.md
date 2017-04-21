@@ -40,3 +40,4 @@
 |时间空间效率的平衡 |丑数 | [Java](./src/UglyNumber.java)|
 |时间空间效率的平衡 |第一个只出现一次的字符位置 | [Java](./src/FirstNotRepeatingChar.java)|
 |时间空间效率的平衡 |数组中的逆序对 | [Java](./src/InversePairs.java)|
+|时间空间效率的平衡 |两个链表的第一个公共结点 | [Java](./src/FirstCommonNodesInLists.java)|
