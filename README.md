@@ -35,3 +35,4 @@
 |时间效率 |数组中出现次数超过一半的数字 | [Java](./src/MoreThanHalfNumber.java)|
 |时间效率 |最小的K个数 | [Java](./src/KLeastNumbers.java)|
 |时间效率 |连续子数组的最大和 | [Java](./src/GreatestSumOfSubArray.java)|
+|时间效率 |整数中1出现的次数（从1到n整数中1出现的次数） | [Java](./src/NumberOf1.java)|
