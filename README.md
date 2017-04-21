@@ -36,3 +36,4 @@
 |时间效率 |最小的K个数 | [Java](./src/KLeastNumbers.java)|
 |时间效率 |连续子数组的最大和 | [Java](./src/GreatestSumOfSubArray.java)|
 |时间效率 |整数中1出现的次数（从1到n整数中1出现的次数） | [Java](./src/NumberOf1.java)|
+|时间效率 |把数组排成最小的数 | [Java](./src/SortArrayForMinNumber.java)|
