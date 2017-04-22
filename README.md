@@ -41,3 +41,4 @@
 |时间空间效率的平衡 |第一个只出现一次的字符位置 | [Java](./src/FirstNotRepeatingChar.java)|
 |时间空间效率的平衡 |数组中的逆序对 | [Java](./src/InversePairs.java)|
 |时间空间效率的平衡 |两个链表的第一个公共结点 | [Java](./src/FirstCommonNodesInLists.java)|
+|知识迁移能力 |数字在排序数组中出现的次数 | [Java](./src/NumberOfK.java)|
