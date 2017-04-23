@@ -4,39 +4,22 @@
  * 要求不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句（A ? B : C）
  */
 public class Accumulate {
-    private static class Temp {
-        private static int n;
-        private static int sum;
+    int res = 0;
 
-        public Temp() {
-            ++n;
-            sum += n;
-        }
-
-        public static void reset() {
-            n = 0;
-            sum = 0;
-        }
-
-        public static int getSum() {
-            return sum;
-        }
+    public int sum_Solution(int n) {
+        res = 0;
+        add(n);
+        return res;
     }
 
     /**
-     * 利用构造函数求解
-     * 调用n次构造函数，在构造函数中求sum
+     * 使用逻辑与运算的短路特性终止递归
      * @param n
      * @return
      */
-    public int sum_Solution(int n) {
-        Temp[] temps = new Temp[n];
-        Temp.reset();
-        for (int i = 0; i < temps.length; i++) {
-            temps[i] = new Temp();
-        }
-
-        return Temp.getSum();
+    private boolean add(int n) {
+        res += n;
+        return n!= 0 && add(n-1);
     }
 
     public static void main(String[] args) {
