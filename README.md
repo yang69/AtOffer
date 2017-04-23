@@ -50,3 +50,4 @@
 |知识迁移能力 |翻转单词顺序 | [Java](./src/ReverseWordsInSentence.java)|
 |知识迁移能力 |左旋转字符串 | [Java](./src/LeftRotateString.java)|
 |抽象建模能力 |扑克牌顺子 | [Java](./src/ContinuousCard.java)|
+|抽象建模能力 |圆圈中最后剩下的数字 | [Java](./src/LastNumberInCircle.java)|
