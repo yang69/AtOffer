@@ -48,3 +48,4 @@
 |知识迁移能力 |和为S的两个数字 | [Java](./src/TwoNumbersWithSum.java)|
 |知识迁移能力 |和为S的连续正数序列 | [Java](./src/ContinuesSequenceWithSum.java)|
 |知识迁移能力 |翻转单词顺序 | [Java](./src/ReverseWordsInSentence.java)|
+|知识迁移能力 |左旋转字符串 | [Java](./src/LeftRotateString.java)|
