@@ -51,3 +51,4 @@
 |知识迁移能力 |左旋转字符串 | [Java](./src/LeftRotateString.java)|
 |抽象建模能力 |扑克牌顺子 | [Java](./src/ContinuousCard.java)|
 |抽象建模能力 |圆圈中最后剩下的数字 | [Java](./src/LastNumberInCircle.java)|
+|发散思维能力 |求1+2+3+...+n | [Java](./src/Accumulate.java)|
