@@ -55,3 +55,4 @@
 |发散思维能力 |不用加减乘除做加法 | [Java](./src/AddTwoNumbers.java)|
 |综合 |把字符串转换成整数 | [Java](./src/StrToInt.java)|
 |数组 |数组中重复的数字 | [Java](./src/DuplicationInArray.java)|
+|数组 |构建乘积数组 | [Java](./src/ArrayConstruction.java)|
