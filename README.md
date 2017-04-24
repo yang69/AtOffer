@@ -56,3 +56,4 @@
 |综合 |把字符串转换成整数 | [Java](./src/StrToInt.java)|
 |数组 |数组中重复的数字 | [Java](./src/DuplicationInArray.java)|
 |数组 |构建乘积数组 | [Java](./src/ArrayConstruction.java)|
+|字符串 |正则表达式匹配 | [Java](./src/RegularExpressionsMatching.java)|
