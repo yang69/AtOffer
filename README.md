@@ -53,3 +53,4 @@
 |抽象建模能力 |圆圈中最后剩下的数字 | [Java](./src/LastNumberInCircle.java)|
 |发散思维能力 |求1+2+3+...+n | [Java](./src/Accumulate.java)|
 |发散思维能力 |不用加减乘除做加法 | [Java](./src/AddTwoNumbers.java)|
+|综合 |把字符串转换成整数 | [Java](./src/StrToInt.java)|
