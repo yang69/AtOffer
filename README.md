@@ -57,3 +57,4 @@
 |数组 |数组中重复的数字 | [Java](./src/DuplicationInArray.java)|
 |数组 |构建乘积数组 | [Java](./src/ArrayConstruction.java)|
 |字符串 |正则表达式匹配 | [Java](./src/RegularExpressionsMatching.java)|
+|字符串 |表示数值的字符串 | [Java](./src/NumericStrings.java)|
