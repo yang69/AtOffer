@@ -64,3 +64,4 @@
 |树 |二叉树的下一个结点 | [Java](./src/NextNodeInBinaryTrees.java)|
 |树 |对称的二叉树 | [Java](./src/SymmetricalBinaryTree.java)|
 |树 |把二叉树打印成多行 | [Java](./src/PrintTreesInLines.java)|
+|树 |按之字形顺序打印二叉树 | [Java](./src/PrintTreesInZigzag.java)|
