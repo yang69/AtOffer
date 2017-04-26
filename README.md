@@ -65,3 +65,4 @@
 |树 |对称的二叉树 | [Java](./src/SymmetricalBinaryTree.java)|
 |树 |把二叉树打印成多行 | [Java](./src/PrintTreesInLines.java)|
 |树 |按之字形顺序打印二叉树 | [Java](./src/PrintTreesInZigzag.java)|
+|树 |序列化二叉树 | [Java](./src/SerializeBinaryTrees.java)|
