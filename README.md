@@ -67,3 +67,4 @@
 |树 |按之字形顺序打印二叉树 | [Java](./src/PrintTreesInZigzag.java)|
 |树 |序列化二叉树 | [Java](./src/SerializeBinaryTrees.java)|
 |树 |二叉搜索树的第k个结点 | [Java](./src/KthNodeInBST.java)|
+|树 |数据流中的中位数 | [Java](./src/StreamMedian.java)|
