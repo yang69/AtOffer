@@ -69,3 +69,4 @@
 |树 |二叉搜索树的第k个结点 | [Java](./src/KthNodeInBST.java)|
 |树 |数据流中的中位数 | [Java](./src/StreamMedian.java)|
 |栈和队列 |滑动窗口的最大值 | [Java](./src/MaxInSlidingWindow.java)|
+|回溯法 |矩阵中的路径 | [Java](./src/StringPathInMatrix.java)|
