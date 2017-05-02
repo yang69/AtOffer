@@ -1,8 +1,11 @@
 /**
  * Created by yang on 2017/4/8.
+ ************************************************************************************************
+ * 替换空格
+ *
  * 请实现一个函数，将一个字符串中的空格替换成“%20”。
- * 例如，当字符串为We Are Happy.则经过替换之后的字符串
- * 为We%20Are%20Happy。
+ * 例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
+ ************************************************************************************************
  */
 public class ReplaceSpace {
     /**
@@ -12,11 +15,33 @@ public class ReplaceSpace {
      */
 
     /**
-     * Java只需要只用StringBuilder，依次向其中添加修改后的内容即可
-     * @param str，待修改的字符串
+     * 直接使用StringBuffer的内置方法……
+     * @param str
      * @return
      */
     public String replaceSpace(StringBuffer str) {
+        if(str == null) {
+            return null;
+        }
+        for (int i = 0; i < str.length(); ) {
+            if (str.charAt(i) == ' ') {
+                str.deleteCharAt(i);
+                str.insert(i, "%20");
+                i += 3;
+            } else {
+                i++;
+            }
+        }
+
+        return str.toString();
+    }
+
+    /**
+     * 用StringBuilder，依次向其中添加修改后的内容即可
+     * @param str，待修改的字符串
+     * @return
+     */
+    public String replaceSpace1(StringBuffer str) {
         if(str == null) {
             return null;
         }
@@ -40,6 +65,15 @@ public class ReplaceSpace {
      */
     public static void main(String[] args) {
         StringBuffer sb = new StringBuffer("t r s");
+        System.out.println(new ReplaceSpace().replaceSpace(sb));
+
+        sb = new StringBuffer("  ");
+        System.out.println(new ReplaceSpace().replaceSpace(sb));
+
+        sb = new StringBuffer("");
+        System.out.println(new ReplaceSpace().replaceSpace(sb));
+
+        sb = new StringBuffer("a");
         System.out.println(new ReplaceSpace().replaceSpace(sb));
     }
 }
