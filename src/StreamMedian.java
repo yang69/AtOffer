@@ -37,7 +37,7 @@ public class StreamMedian {
     public Double getMedian() {
         int size = min.size() + max.size();
         if(size == 0) {
-            throw new RuntimeException("没有这样的数");
+            throw new NoSuchElementException("Empty array has no median.");
         }
 
         double median = 0;
